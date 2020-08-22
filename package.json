@@ -1,0 +1,18 @@
+{
+  "name": "ead-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "git@github.com:andersonpensephp/ead-api.git",
+  "author": "Anderson Reis Souto <andersonpensephp@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0"
+  }
+}
