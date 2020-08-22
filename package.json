@@ -3,13 +3,20 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "eslint": "eslist ./src/**/*.js"
   },
   "repository": "git@github.com:andersonpensephp/ead-api.git",
   "author": "Anderson Reis Souto <andersonpensephp@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
     "koa": "^2.13.0",
